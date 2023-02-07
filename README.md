@@ -6,6 +6,8 @@ I have run various experiments given in the research paper and evaluated perform
 
 Experiment 1
 Running it on beta1=0.9, beta2 = 0.999 and Adam optimizer.
+
+
 ![image](https://user-images.githubusercontent.com/92864931/217338713-aa27eb5f-bb1e-4757-85d8-b9a37d22b624.png)
 
 

@@ -4,7 +4,7 @@ My project on Vision Transformer research paper. I have run the various experime
 
 I have run various experiments given in the research paper and evaluated performance for each model separately by graphing model train accuracy, validation accuracy and then evaluated on the test set.
 
-Experiment 1
+#Experiment 1
 Running it on beta1=0.9, beta2 = 0.999 and Adam optimizer.
 
 

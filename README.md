@@ -19,6 +19,8 @@ Train set - loss: 0.7220 - accuracy: 0.7809 - top-5-accuracy: 0.9650 - val_loss:
 
 Test set - loss: 1.9615 - accuracy: 0.5401 - top-5-accuracy: 0.8062
 
+This is a normal experiment with adam optimizer 
+
 ## Experiment 2
 
 Running it with Adam optimizer, beta1=0.9, beta2 = 0.999 and Adam optimizer, learning rate = 0.02, weight_decay = 0.1, batch size = 256
@@ -29,6 +31,8 @@ Running it with Adam optimizer, beta1=0.9, beta2 = 0.999 and Adam optimizer, lea
 Train set - loss: 4.2087 - accuracy: 0.0536 - top-5-accuracy: 0.2033 - val_loss: 4.1920 - val_accuracy: 0.0620 - val_top-5-accuracy: 0.2152
 
 Test set - loss: 4.1913 - accuracy: 0.0564 - top-5-accuracy: 0.2166
+
+This experiment failed badly beacuse according to the paper I had to use a batch size of 4096 ideally but could not allocate a batch size of more than 256 due to hardware  constraints, and as the weight decay is high it didn't train properly.
 
 ## Experiment 3
 
@@ -41,6 +45,8 @@ Train set - loss: 1.0580 - accuracy: 0.6835 - top-5-accuracy: 0.9334 - val_loss:
 Test set - loss: 1.7567 - accuracy: 0.5474 - top-5-accuracy: 0.8191
 
 The graph does not plateau and reached the said accuracy smoothly. It does not fit the training data that well but has the highest testing accuracy, implying it generalizes well on new data.
+
+Though, according to the research paper adam should work better, the adam optimizer does fit well on the train set, but maybe due to difference in batch size (ideally batch size should have been 512), it did not perform as expected. 
 
 ## Experiment 4
 

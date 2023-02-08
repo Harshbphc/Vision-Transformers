@@ -8,5 +8,19 @@ Link to the notebook- "link"
 
 Link to the 5th experiment - "link2"
 
+## Experiment 1
+
+Running it on beta1=0.9, beta2 = 0.999 and Adam optimizer, learning rate = learning_rate = 0.001, weight_decay = 0.0001
+
+
+![image](https://user-images.githubusercontent.com/92864931/217338713-aa27eb5f-bb1e-4757-85d8-b9a37d22b624.png)
+
+Train set - loss: 0.7220 - accuracy: 0.7809 - top-5-accuracy: 0.9650 - val_loss: 1.9957 - val_accuracy: 0.5374 - val_top-5-accuracy: 0.8042
+
+Test set - loss: 1.9615 - accuracy: 0.5401 - top-5-accuracy: 0.8062
+
+## Experiment 2
+
+Running it with beta1=0.9, beta2 = 0.999 and Adam optimizer, learning rate = learning_rate = 0.02, weight_decay = 0.1, batch size = 256
 
 

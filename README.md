@@ -4,9 +4,9 @@ My project on Vision Transformer research paper. I have run the various experime
 
 I have run various experiments given in the research paper and evaluated performance for each model separately by graphing model train accuracy, validation accuracy and then evaluated on the test set.
 
-Link to the notebook- "link"
+Link to the notebook- https://www.kaggle.com/code/harshrachalwar/transformeres-for-image-recognition-at-scale/notebook
 
-Link to the 5th experiment - "link2"
+Link to the 5th experiment - https://www.kaggle.com/code/harshrach20/experiment-5/notebook
 
 ## Experiment 1
 

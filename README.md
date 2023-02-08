@@ -21,6 +21,15 @@ Test set - loss: 1.9615 - accuracy: 0.5401 - top-5-accuracy: 0.8062
 
 ## Experiment 2
 
-Running it with beta1=0.9, beta2 = 0.999 and Adam optimizer, learning rate = learning_rate = 0.02, weight_decay = 0.1, batch size = 256
+Running it with beta1=0.9, beta2 = 0.999 and Adam optimizer, learning rate = 0.02, weight_decay = 0.1, batch size = 256, beta 1 = 0.9 and beta 2 = 0.999
+
+![image](https://user-images.githubusercontent.com/92864931/217511736-74f01e67-15c5-4b47-aad1-d7a4c0a08828.png)
+
+
+Train set - loss: 4.2087 - accuracy: 0.0536 - top-5-accuracy: 0.2033 - val_loss: 4.1920 - val_accuracy: 0.0620 - val_top-5-accuracy: 0.2152
+
+Test set - loss: 4.1913 - accuracy: 0.0564 - top-5-accuracy: 0.2166
+
+
 
 

@@ -46,7 +46,7 @@ Test set - loss: 1.7567 - accuracy: 0.5474 - top-5-accuracy: 0.8191
 
 The graph does not plateau and reached the said accuracy smoothly. It does not fit the training data that well but has the highest testing accuracy, implying it generalizes well on new data.
 
-Though, according to the research paper adam should work better, the adam optimizer does fit well on the train set, but maybe due to difference in batch size (ideally batch size should have been 512), it did not perform as expected. 
+Though, according to the research paper adam should work better, the adam optimizer does fit well on the train set, but maybe due to difference in batch size (ideally batch size should have been 512), adam did not perform as expected. 
 
 ## Experiment 4
 

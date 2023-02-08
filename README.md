@@ -60,6 +60,17 @@ Test set - loss: 2.0026 - accuracy: 0.5387 - top-5-accuracy: 0.8059
 
 This architecture fits the train model better than the one in Exp 1 without masking by a small margin and the test results are almost similar
 
+## Experiment 5
+
+Running with Adam optimizer, learning rate = 0.0002, and cosine learning rate decay, batch size = 256
+
+![image](https://user-images.githubusercontent.com/92864931/217517123-4a0e8935-d111-4420-b069-fb2c7257abec.png)
+
+Train set - loss: 1.7354 - accuracy: 0.5228 - top-5-accuracy: 0.8206 - val_loss: 2.0612 - val_accuracy: 0.4676 - val_top-5-accuracy: 0.7608
+
+Test set - loss: 2.0350 - accuracy: 0.4683 - top-5-accuracy: 0.7651
+
+This optimizer performs well but not as good as the ones in Exp 1, 3 and 4. This might be because of the difference in batch size(4096 ideally). The graph plateaus after roughly 30 epochs.
 
 
 
